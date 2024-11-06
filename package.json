@@ -1,0 +1,22 @@
+{
+  "name": "conceitos-node-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Denis Campos",
+  "license": "ISC",
+  "description": "Este é um programa para conhecer o Node",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  }
+}
